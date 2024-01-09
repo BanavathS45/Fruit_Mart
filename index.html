@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BigBasket</title>
+    <!-- font asme -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- css link -->
+    <link rel="stylesheet" href="/Assets/css/style.css">
+    <!-- sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="sweetalert2.min.js"></script>
+    <link rel="stylesheet" href="sweetalert2.min.css">
+    <!-- bs link -->
+    <!-- <link rel="stylesheet" href="/Assets/css/bootstrap.min.css"> -->
+    <!-- js -->
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script> -->
+
+</head>
+
+<body>
+    <section>
+        <div id="header">
+            <div class="imagelogo">
+                <!-- <picture>
+                    <source media="(max-width:799px)" srcset="Assets/Images/orange.pn">
+                    <source media="(max-width:477px)" srcset="Assets/Images/orange.png">
+                    <img src="img_orange_flowers.jpg" alt="Flowers" style="width:auto;">
+                </picture> -->
+                <a href="index.html"><img src="/Assets/Images/logoo.jpg" alt="logo"></a>
+            </div>
+            <div class="serchbar">
+                <input type="search" id="ser" placeholder="search For Products" oninput="serc()">
+                <i class="fa fa-search" aria-hidden="true"></i>
+
+            </div>
+            <a href="#">Login <i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <a href="#re-addcart">
+                <div class="mybusket">
+
+                    <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                    <p>my Basket </p>
+                    <p><b id="count">0</b> items</p>
+                </div>
+            </a>
+        </div>
+    </section>
+    <section id="fruitsCard" class="section-m1">
+
+        <!-- <div class="fCard">
+            <p class="offcard">get off</p>
+            <img class="furitsImg" src="/Assets/Images/orange.png" alt="orange">
+            <div class="details">
+                <img src="/Assets/Images/veg.webp" alt="veg_log" title="Vegtrain">
+                <p>Fresho</p>
+                <h5><a href="">Lorem ipsum dolor sit amet.</a></h5>
+                <div class="rate">
+                    <h5>1kg - Rs 15.00</h5>
+                </div>
+            </div>
+            <div class="add">
+                <p>Qty</p>
+                <input type="number" value="1">
+                <button type="button" class="normal">Add<i class="fa fa-shopping-basket" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div> -->
+
+
+
+    </section>
+    <div id="re-addcart">
+        <p id="empty"></p>
+        <!-- <div class="aCard">
+            <img class="cartImg" src="/Assets/Images/orange.png" alt="orange">
+            <div class="details">
+                <img src="/Assets/Images/veg.webp" alt="veg_log" title="Vegtrain">
+                <p>Fresho</p>
+                <h5><a href="">Apple Lorem ipsum dolor sit amet.lorem5
+
+                </a></h5>
+                <div class="crate">
+                    <h5>1 * 250</h5>
+                </div>
+            </div>
+           
+            <div class="subamout">
+                <p>Rs.250</p>
+            </div>
+            <div class="del">
+                <button type="button" class="normal">Delete<i class="fa fa-trash" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div> -->
+
+    </div>
+    <div class="total">
+        <h4 class="subtotal"> </h4>
+        <h4 class="deltype"> </h4>
+        <h4 class="grandtotal"> </h4>
+        <button class="normal check">Check out</button>
+
+    </div>
+    <div class="succimg">
+        <h4 class="close">&times</h4>
+        <img src="/Assets/Images/success-tick-dribbble.gif" alt="" width="100%">
+        <h3>item has been placed successfully</h3>
+    </div>
+    <script src="/Assets/js/index.js"></script>
+</body>
+
+</html>

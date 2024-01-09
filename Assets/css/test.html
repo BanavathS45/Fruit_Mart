@@ -1,0 +1,39 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            .hid {
+                background-color: black;
+                color: white;
+                cursor: pointer;
+
+            }
+
+            .bl {
+                display: none;
+                cursor: pointer;
+            }
+            .hid:hover +.bl{
+                display: block;
+                cursor: pointer;
+
+            }
+        </style>
+    </head>
+
+    <body>
+        <h4 class="hid">sign in</h4>
+        <ul class="bl">
+            <li>hello</li>
+            <li>hello2</li>
+            <li>hello3</li>
+            <li>hello4</li>
+            <li>hello5</li>
+        </ul>
+    </body>
+
+    </html>
